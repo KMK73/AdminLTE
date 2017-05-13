@@ -329,7 +329,7 @@
           <ul class="treeview-menu">
             <li><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
             <li class="active"><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-            <li><a href="index3.html"><i class="fa fa-circle-o"></i> Recliq</a></li>
+            <li><a href="../../index3.html"><i class="fa fa-circle-o"></i> Recliq</a></li>
           </ul>
         </li>
          <li class="active treeview">
@@ -522,7 +522,7 @@
     <section class="content">
 
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-4">
 
           <!-- Profile Image -->
           <div class="box box-primary">
@@ -535,10 +535,19 @@
 
               <ul class="list-group list-group-unbordered">
                 <li class="list-group-item">
+                  <b>Instagram Handle</b> <a class="pull-right">@ninamcintire</a>
+                </li>
+                <li class="list-group-item">
+                  <b>Media Count</b> <a class="pull-right">44</a>
+                </li>
+                <li class="list-group-item">
                   <b>Followers</b> <a class="pull-right">1,322</a>
                 </li>
                 <li class="list-group-item">
                   <b>Following</b> <a class="pull-right">543</a>
+                </li>
+                <li class="list-group-item">
+                  <b>Fake Follower %</b> <span class="badge bg-red">55%</span>
                 </li>
                 <li class="list-group-item">
                   <b>Status</b> <span class="pull-right label label-success">Recliq Approved</span>
@@ -546,6 +555,8 @@
               </ul>
 
               <a href="#" class="btn btn-danger btn-block"><b>Suspend</b></a>
+              <a href="#" class="btn btn-info btn-block"><b>Run InstaCheck</b></a>
+
             </div>
             <!-- /.box-body -->
           </div>
@@ -553,7 +564,7 @@
         </div>
         <!-- ./col 3 -->
           <!-- About Me Box -->
-          <div class="col-md-9">
+          <div class="col-md-8">
             <div class="box box-primary">
               <div class="box-header with-border">
                 <h3 class="box-title">Influencer Details</h3>
@@ -582,9 +593,13 @@
 
                 <hr>
 
-                <strong><i class="fa  fa-venus margin-r-5"></i> Gender</strong>
+                <strong><i class="fa  fa-venus margin-r-5"></i> Audience Gender</strong>
 
-                <p class="text-muted">Female</p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-blue" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                    <span class="sr-only">Male</span>
+                  </div>
+                </div>
 
                 <hr>
 
@@ -594,7 +609,7 @@
 
                 <hr>
 
-                <strong><i class="fa fa-file-text-o margin-r-5"></i> Notes</strong>
+                <strong><i class="fa fa-file-text-o margin-r-5"></i> Vision</strong>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum enim neque.</p>
               </div>
@@ -603,13 +618,94 @@
           </div>
       </div>
       <!-- /.row -->
-        <!-- /.col -->
+
+      <!-- row -->
+      <div class="row">
+        <!-- col -->
+           <div class="col-md-12">
+            <div class="box box-success box-solid">
+                <div class="box-header with-border">
+                  <h3 class="box-title">InstaCheck Results</h3>
+
+                  <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                  </div>
+                  <!-- /.box-tools -->
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                  <div class="box">
+                
+                    <!-- /.box-header -->
+                    <div class="box-body no-padding">
+                      <table class="table table-striped">
+                        <tbody><tr>
+                          <th style="width: 10px">#</th>
+                          <th>Task</th>
+                          <th>Progress</th>
+                          <th style="width: 40px">Label</th>
+                        </tr>
+                        <tr>
+                          <td>1.</td>
+                          <td>Update software</td>
+                          <td>
+                            <div class="progress progress-xs">
+                              <div class="progress-bar progress-bar-danger" style="width: 55%"></div>
+                            </div>
+                          </td>
+                          <td><span class="badge bg-red">55%</span></td>
+                        </tr>
+                        <tr>
+                          <td>2.</td>
+                          <td>Clean database</td>
+                          <td>
+                            <div class="progress progress-xs">
+                              <div class="progress-bar progress-bar-yellow" style="width: 70%"></div>
+                            </div>
+                          </td>
+                          <td><span class="badge bg-yellow">70%</span></td>
+                        </tr>
+                        <tr>
+                          <td>3.</td>
+                          <td>Cron job running</td>
+                          <td>
+                            <div class="progress progress-xs progress-striped active">
+                              <div class="progress-bar progress-bar-primary" style="width: 30%"></div>
+                            </div>
+                          </td>
+                          <td><span class="badge bg-light-blue">30%</span></td>
+                        </tr>
+                        <tr>
+                          <td>4.</td>
+                          <td>Fix and squish bugs</td>
+                          <td>
+                            <div class="progress progress-xs progress-striped active">
+                              <div class="progress-bar progress-bar-success" style="width: 90%"></div>
+                            </div>
+                          </td>
+                          <td><span class="badge bg-green">90%</span></td>
+                        </tr>
+                      </tbody></table>
+                    </div>
+                    <!-- /.box-body -->
+                  </div>
+                </div>
+                <!-- /.box-body -->
+              </div>
+           </div> 
+           <!-- /.col md 12 -->
+      </div>
+
+      <!-- /.row -->
+
+
+        <!-- start row -->
         <div class="row">
           <div class="col-md-12">
             <div class="nav-tabs-custom">
               <ul class="nav nav-tabs">
                 <li class="active"><a href="#timeline" data-toggle="tab">Timeline</a></li>
-                <li><a href="#settings" data-toggle="tab">Settings</a></li>
+                <li><a href="#settings" data-toggle="tab">Account Details</a></li>
               </ul>
               <div class="tab-content">
 
@@ -769,9 +865,7 @@
             <!-- /.nav-tabs-custom -->
           </div>
         </div>
-        <!-- /.col -->
-
-      <!-- /.row -->
+        <!-- /.row -->
 
     </section>
     <!-- /.content -->
